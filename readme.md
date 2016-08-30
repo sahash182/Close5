@@ -129,11 +129,11 @@ To test this API's Please use some Rest Client Tools like PostMan or RESTClient
 ************************************************************************************************
 
 2)http://localhost:8080/api/data/date/desc
-- This will get all Items that will be sorted by dates in descending order.
+- This will get all Items that will be sorted by dates in descending order.<br/>
 
--Test Results:
--Request:http://localhost:8080/api/data/date/desc
--Response:
+-Test Results:<br/>
+-Request:http://localhost:8080/api/data/date/desc<br/>
+-Response:<br/>
 -[
   {
     "id": "53fd1e48646d8f233e00001b",
@@ -248,10 +248,11 @@ To test this API's Please use some Rest Client Tools like PostMan or RESTClient
 ************************************************************************************************
 
 3)http://localhost:8080/api/data/date/asc
-- This will get all Items that will be sorted by dates in ascending order.
--Test Results:
--Request:http://localhost:8080/api/data/date/asc
--Response:
+- This will get all Items that will be sorted by dates in ascending order.<br/>
+
+-Test Results:<br/>
+-Request:http://localhost:8080/api/data/date/asc<br/>
+-Response:<br/>
 -[
   {
     "id": "53fb8f26456e74467b000001",
@@ -366,10 +367,11 @@ To test this API's Please use some Rest Client Tools like PostMan or RESTClient
 ************************************************************************************************
 
 4)http://localhost:8080/api/data/price/desc
-- This will get all Items that will be sorted by price in descending order.
--Test Results:
--Request:http://localhost:8080/api/data/price/desc
--Response:
+- This will get all Items that will be sorted by price in descending order.<br/>
+
+-Test Results:<br/>
+-Request:http://localhost:8080/api/data/price/desc<br/>
+-Response:<br/>
 -[
   {
     "id": "53fb8f81456e74467b000002",
@@ -484,10 +486,11 @@ To test this API's Please use some Rest Client Tools like PostMan or RESTClient
 ************************************************************************************************
 
 5)http://localhost:8080/api/data/price/asc
-- This will get all Items that will be sorted by price in ascending order.
--Test Results:
--Request:http://localhost:8080/api/data/price/asc
--Response:
+- This will get all Items that will be sorted by price in ascending order.<br/>
+
+-Test Results:<br/>
+-Request:http://localhost:8080/api/data/price/asc<br/>
+-Response:<br/>
 -[
   {
     "id": "53fb8f26456e74467b000001",
@@ -602,11 +605,11 @@ To test this API's Please use some Rest Client Tools like PostMan or RESTClient
 ************************************************************************************************
 
 6)http://localhost:8080/api/data/id/53fd1182646d8f233e000014
-- This will get all Items that can be find by id.
+- This will get all Items that can be find by id.<br/>
 
--Test Results: On taking one id from the given data
--Request:http://localhost:8080/api/data/id/53fd1182646d8f233e000014
--Response:
+-Test Results: On taking one id from the given data<br/>
+-Request:http://localhost:8080/api/data/id/53fd1182646d8f233e000014<br/>
+-Response:<br/>
 -{
   "id": "53fd1182646d8f233e000014",
   "loc": [
@@ -622,11 +625,11 @@ To test this API's Please use some Rest Client Tools like PostMan or RESTClient
 ************************************************************************************************
 
 7)http://localhost:8080/api/data/user/53f6c9c96d1944af0b00000b
-- This will get all Items that can be find by userId.
+- This will get all Items that can be find by userId.<br/>
 
--Test Results: on taking one userId from the data
--Request:http://localhost:8080/api/data/user/53f6c9c96d1944af0b00000b
--Response:
+-Test Results: on taking one userId from the data<br/>
+-Request:http://localhost:8080/api/data/user/53f6c9c96d1944af0b00000b<br/>
+-Response:<br/>
 -[
   {
     "id": "53fb8f26456e74467b000001",
@@ -706,11 +709,11 @@ To test this API's Please use some Rest Client Tools like PostMan or RESTClient
 8)http://localhost:8080/api/data/location/36.15517247887697/-115.14484161837342
 - This will get all Items that is less than or equal to 50 miles of the radius for the given location co-ordinates. Which is supposed to be the requestor's location. For this case I used, latitude = 36.15517247887697 and longitude = -115.14484161837342.
 
--Test Results:
+-Test Results:<br/>
 
--Request: http://localhost:8080/api/data/location/36.15517247887697/-115.14484161837342
+-Request: http://localhost:8080/api/data/location/36.15517247887697/-115.14484161837342 <br/>
 
--Response:
+-Response:<br/>
 [
   {
     "id": "53fb8f26456e74467b000001",
