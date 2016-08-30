@@ -11,11 +11,11 @@ To test this API's Please use some Rest Client Tools like PostMan or RESTClient
  Following are the Api's:
 
 1) http://localhost:8080/api/data
-- This api will get all the Items
+- This api will get all the Items <br/>
 
- -Test results:
-  -Request: http://localhost:8080/api/data
-  -Response: 
+ -Test results: <br/>
+  -Request: http://localhost:8080/api/data <br/>
+  -Response: <br/>
   -[
   {
     "id": "53fb8f26456e74467b000001",
